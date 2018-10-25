@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS02 - Delete" time="3" tests="1" failures="0" errors="0">
+   <testsuite name="TS02 - Delete" tests="1" failures="0" errors="0" time="3" timestamp="2018-10-24 16:03:33" hostname="Guest Admin - 192.168.1.107" id="Test Suites/TS02 - Delete Request/TS02 - Delete">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Guest Admin\\Katalon Studio\\API Automation\\Reports\\TS02 - Delete Request\\TS02 - Delete\\20181024_160303"/>
+         <property name="logFiles" value="C:\\Users\\Guest Admin\\Katalon Studio\\API Automation\\Reports\\TS02 - Delete Request\\TS02 - Delete\\20181024_160303\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Guest Admin - 192.168.1.107"/>
+         <property name="hostAddress" value="192.168.1.107"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.2.1"/>
+      </properties>
+      <testcase name="Test Cases/TC02 - Delete Request/TC03 - Delete user" classname="Test Cases/TC02 - Delete Request/TC03 - Delete user" status="PASSED">
+         <system-out><![CDATA[2018-10-24 16:03:34 - [TEST_CASE][PASSED] - Test Cases/TC02 - Delete Request/TC03 - Delete user: Test Cases/TC02 - Delete Request/TC03 - Delete user
+
+2018-10-24 16:03:35 - [TEST_STEP][PASSED] - Statement - resp = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Delete Request/Delete User)): Send request successfully
+
+2018-10-24 16:03:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-10-24 16:03:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-10-24 16:03:37 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-24 16:03:33 - [TEST_SUITE][PASSED] - TS02 - Delete: Test Cases/TC02 - Delete Request/TC03 - Delete user]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

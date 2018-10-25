@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS01 - Get,,,2018-10-24 15:51:31,2018-10-24 15:51:37,6.061s,PASSED
+,,,,,,
+Test Cases/TC01 - Get Request/TC01 - Get List of users,,,2018-10-24 15:51:32,2018-10-24 15:51:36,3.921s,PASSED
+Statement - resp = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Get Request/List of Users)),,,2018-10-24 15:51:33,2018-10-24 15:51:35,2.055s,PASSED
+verifyResponseStatusCode,,,2018-10-24 15:51:35,2018-10-24 15:51:35,0.156s,PASSED
+verifyElementPropertyValue,,,2018-10-24 15:51:35,2018-10-24 15:51:35,0.313s,PASSED
+,,,,,,
+Test Cases/TC01 - Get Request/TC02 - User not found,,,2018-10-24 15:51:36,2018-10-24 15:51:37,1.111s,PASSED
+Statement - resp = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Get Request/User not found)),,,2018-10-24 15:51:36,2018-10-24 15:51:37,0.721s,PASSED
+verifyResponseStatusCode,,,2018-10-24 15:51:37,2018-10-24 15:51:37,0.005s,PASSED

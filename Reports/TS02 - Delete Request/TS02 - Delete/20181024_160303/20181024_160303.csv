@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS02 - Delete,,,2018-10-24 16:03:33,2018-10-24 16:03:37,3.425s,PASSED
+,,,,,,
+Test Cases/TC02 - Delete Request/TC03 - Delete user,,,2018-10-24 16:03:34,2018-10-24 16:03:37,2.672s,PASSED
+Statement - resp = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Delete Request/Delete User)),,,2018-10-24 16:03:35,2018-10-24 16:03:37,1.971s,PASSED
+verifyResponseStatusCode,,,2018-10-24 16:03:37,2018-10-24 16:03:37,0.056s,PASSED
